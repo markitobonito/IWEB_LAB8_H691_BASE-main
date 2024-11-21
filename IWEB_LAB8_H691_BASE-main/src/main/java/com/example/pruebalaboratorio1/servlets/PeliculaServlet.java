@@ -37,10 +37,8 @@ public class PeliculaServlet extends HttpServlet {
                 case "borrar":
                     response.sendRedirect(request.getContextPath()+"/listaPeliculas?action=listar");
                 break;
-
         }
     }
-
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         response.setContentType("text/html");
 
